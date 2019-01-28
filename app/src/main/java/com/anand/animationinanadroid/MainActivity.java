@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
         txtHelloWorld.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Log.i("MYTAG","HELLO WORLD!");
+               // Log.i("MYTAG","HELLO WORLD!");
+                txtHelloWorld.animate().rotation(360f).setDuration(1000);
             }
         });
     }
